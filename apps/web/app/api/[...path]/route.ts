@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
+import { REFRESH_COOKIE } from "@/lib/auth/cookie";
+
 /**
  * BFF 代理：把前端请求转发到 Render 上的 FastAPI。
  *
@@ -14,7 +16,6 @@ import { NextRequest, NextResponse } from "next/server";
  */
 
 const BACKEND_API_URL = process.env.BACKEND_API_URL ?? "http://localhost:8000";
-const REFRESH_COOKIE = "diet_refresh_token";
 const REFRESH_MAX_AGE = 30 * 24 * 60 * 60; // 30 天
 
 export const runtime = "nodejs";
