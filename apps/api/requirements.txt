@@ -1,0 +1,17 @@
+# 运行时依赖（与 pyproject.toml [project.dependencies] 保持一致）
+#
+# 为什么用 requirements.txt 而不是 `pip install -e .`：
+# 项目是 flat layout，顶层有 app / tests / scripts / alembic 多个目录，
+# setuptools 的自动发现会报 "Multiple top-level packages discovered"。
+# 部署时并不需要把本项目当包安装 —— uvicorn 直接从工作目录加载 app.main:app 即可。
+
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sqlalchemy>=2.0
+psycopg[binary]>=3.2
+alembic>=1.14
+pydantic>=2.9
+pydantic-settings>=2.6
+pyjwt>=2.10
+bcrypt>=4.2
+tzdata>=2024.2

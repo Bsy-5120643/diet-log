@@ -1,0 +1,47 @@
+[
+  {
+    "food_name": "鸡胸肉(生)",
+    "energy_kcal": 133,
+    "protein_g": 24.6,
+    "fat_g": 1.9,
+    "carb_g": 2.5,
+    "fiber_g": 0,
+    "sodium_mg": 34
+  },
+  {
+    "food_name": "生菜(叶用莴苣)",
+    "energy_kcal": 15,
+    "protein_g": 1.4,
+    "fat_g": 0.3,
+    "carb_g": 2.0,
+    "fiber_g": null,
+    "sodium_mg": 32
+  },
+  {
+    "food_name": "干木耳",
+    "energy": 265,
+    "protein_g": "12.1",
+    "fat_g": "1.5",
+    "carb_g": "65.6",
+    "fiber_g": "29.9",
+    "sodium_mg": "48.5"
+  },
+  {
+    "food_name": "精制盐",
+    "energy_kcal": 0,
+    "protein_g": 0,
+    "fat_g": 0,
+    "carb_g": 0,
+    "fiber_g": "—",
+    "sodium_mg": 39311
+  },
+  {
+    "food_name": "某种茶饮",
+    "energy_kcal": "Tr",
+    "protein_g": "<0.1",
+    "fat_g": "Tr",
+    "carb_g": "Tr",
+    "fiber_g": "—",
+    "sodium_mg": "1"
+  }
+]
